@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MobileStartUApp.Model.NavigationMessage">
+    <Position X="4.5" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\NavigationMessage.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Page" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MobileStartUApp.Model.Status">
+    <Position X="6.5" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Status.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MobileStartUApp.Model.Question">
+    <Position X="9" Y="0.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAACQAAEACEAAAAABAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Model\Question.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MobileStartUApp.Services.BlissWebService">
+    <Position X="1" Y="5.5" Width="2" />
+    <Members>
+      <Field Name="_baseUriAddress" Hidden="true" />
+      <Field Name="_logService" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>QAIAAAAAAAAAAAAAAAAAAKAAAAAAAAQAQAAAAAAAAAA=</HashCode>
+      <FileName>Services\BlissWebService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MobileStartUApp.Services.LogService">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAACAAAAAAAAAAAAAAAAAAAAQAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Services\LogService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MobileStartUApp.ViewModels.BlissServiceNotAvailableViewModel">
+    <Position X="7" Y="3.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\BlissServiceNotAvailableViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MobileStartUApp.ViewModels.LoadingScreenViewModel">
+    <Position X="10.5" Y="3.5" Width="2.25" />
+    <Members>
+      <Field Name="_blissWebService" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\LoadingScreenViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MobileStartUApp.ViewModels.QuestionDetailsViewModel">
+    <Position X="6.5" Y="5.75" Width="2.25" />
+    <Members>
+      <Field Name="_blissWebService" Hidden="true" />
+      <Field Name="_question" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAwAAAAAAAAAABAIAAAAAAAgAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\QuestionDetailsViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MobileStartUApp.ViewModels.QuestionListViewModel">
+    <Position X="9.25" Y="5.75" Width="2.25" />
+    <Members>
+      <Field Name="_blissWebService" Hidden="true" />
+      <Field Name="_limit" Hidden="true" />
+      <Field Name="_offset" Hidden="true" />
+      <Method Name="OnPropertyChanged" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>IAAgABAAAAAAAgAAIAAAAAAAgBAAAAAEAACAEAAAAAA=</HashCode>
+      <FileName>ViewModels\QuestionListViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MobileStartUApp.ViewModels.ShareQuestionViewModel">
+    <Position X="12" Y="5.75" Width="2.25" />
+    <Members>
+      <Field Name="_blissWebService" Hidden="true" />
+      <Field Name="_email" Hidden="true" />
+      <Field Name="_isShared" Hidden="true" />
+      <Field Name="_question" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAACAAAABAIAIAAAEAgAAAAAAAAABAAAEABAE=</HashCode>
+      <FileName>ViewModels\ShareQuestionViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="MobileStartUApp.Services.Interfaces.IBlissWebService">
+    <Position X="1" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAACAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Interfaces\IBlissWebService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MobileStartUApp.Services.Interfaces.ILogService">
+    <Position X="4" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgAACAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Interfaces\ILogService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="MobileStartUApp.Model.PageType">
+    <Position X="1.25" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAEAACAAAAAAAAAAAAAAACAAAQAAAAAAAA=</HashCode>
+      <FileName>Model\NavigationMessage.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

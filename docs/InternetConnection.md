@@ -83,3 +83,10 @@ Note in this code is used the **Xamarin.Essencials.Connectivity** and you need t
 
 * **InternetNotAvailablePage.xaml** - This page is used when the connection is not available
 * **LoadingScreenPage.xaml** -  This page is used when the connection is available and the app is processing something
+
+
+At the end the flow should be
+
+<MTMarkdownOptions output='html4'>
+	<a href="enei.pt"><img src="../images/Flow-internetisnotavailable.png"/></a>
+</MTMarkdownOptions>

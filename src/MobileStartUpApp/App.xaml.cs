@@ -50,10 +50,9 @@ namespace MobileStartUpApp
         {
             // Handle when your app resumes
         }
-
         private void HandInternetConnection()
         {
             Connectivity.ConnectivityChanged += Connectivity_ConnectivityChanged;
-        }      
+        }
     }
 }

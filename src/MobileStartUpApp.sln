@@ -9,7 +9,20 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileStartUpApp.Android", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileStartUpApp.iOS", "MobileStartUpApp.iOS\MobileStartUpApp.iOS.csproj", "{694BA8D2-BBE9-498E-9A33-E4D2E78D0D7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileStartUpApp", "MobileStartUpApp\MobileStartUpApp.csproj", "{17F80AD8-D1EF-45F3-BD44-B6B138F82F5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MobileStartUpApp", "MobileStartUpApp\MobileStartUpApp.csproj", "{17F80AD8-D1EF-45F3-BD44-B6B138F82F5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{134C0C46-D9A3-4E9F-8154-6BE088CFB214}"
+	ProjectSection(SolutionItems) = preProject
+		..\docs\InternetConnection.md = ..\docs\InternetConnection.md
+		..\docs\LoadingImages.md = ..\docs\LoadingImages.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0E77EBBE-0705-43CF-B71B-63C6E425331A}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitattributes = ..\.gitattributes
+		..\.gitignore = ..\.gitignore
+		..\ReadMe.md = ..\ReadMe.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

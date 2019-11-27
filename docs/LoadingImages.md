@@ -79,7 +79,7 @@ And then in each platform add the code, to init render called CachedImageRender.
                 }
 
 
-Create the folder **images** and add the **offlinelogo.png** image.
+Create the folder **images** and add the **offlinelogo.png** image (as **Embedded resource**).
 
 Then open the **InternetNotAvailablePage.xaml** file and add the code
 

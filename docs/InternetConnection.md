@@ -6,7 +6,7 @@ Create the **Mobile App (Xamarin.Forms)** as showed in the following image
 
 
 <MTMarkdownOptions output='html4'>
-	<a href="enei.pt"><img src="images/CreateMobileApp.XamForms.png"/></a>
+	<a href="enei.pt"><img src="../images/CreateMobileApp.XamForms.png"/></a>
 </MTMarkdownOptions>
 
 

@@ -147,3 +147,10 @@ After it, in code be hide, load the image has following:
         }
 
 Note: we should dispose the image doing **internetNotAvailableImage.Source = null;**
+
+
+The result will be
+
+<MTMarkdownOptions output='html4'>
+	<a href="enei.pt"><img src="../images/InternetNotAvailablePage.xaml.jpg"/></a>
+</MTMarkdownOptions>

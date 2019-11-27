@@ -152,5 +152,5 @@ Note: we should dispose the image doing **internetNotAvailableImage.Source = nul
 The result will be
 
 <MTMarkdownOptions output='html4'>
-	<a href="enei.pt"><img src="../images/InternetNotAvailablePage.xaml.jpg"/></a>
+	<img height="400" src="../images/InternetNotAvailablePage.xaml.jpg"/>
 </MTMarkdownOptions>

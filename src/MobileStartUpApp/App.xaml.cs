@@ -1,8 +1,8 @@
-﻿using MobileStartUApp.Views;
+﻿using MobileStartUpApp.Views;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 
-namespace MobileStartUApp
+namespace MobileStartUpApp
 {
     public partial class App : Application
     {

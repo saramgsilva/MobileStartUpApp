@@ -1,24 +1,12 @@
-﻿using FFImageLoading.Forms;
-using FFImageLoading.Forms.Platform;
+﻿using FFImageLoading.Forms.Platform;
 using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-namespace MobileStartUApp.UWP
+namespace MobileStartUpApp.UWP
 {
     /// <summary>
     /// Provides application-specific behavior to supplement the default Application class.
@@ -54,11 +42,6 @@ namespace MobileStartUApp.UWP
                 rootFrame = new Frame();
 
                 rootFrame.NavigationFailed += OnNavigationFailed;
-                //var assembliesToInclude = new List<Assembly>()
-                //{
-                //    typeof(CachedImage).GetTypeInfo().Assembly,
-                //    typeof(CachedImageRenderer).GetTypeInfo().Assembly
-                //};
                 CachedImageRenderer.Init();
                 Xamarin.Forms.Forms.Init(e);
 

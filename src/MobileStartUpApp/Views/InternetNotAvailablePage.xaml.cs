@@ -1,7 +1,7 @@
 ﻿using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace MobileStartUApp.Views
+namespace MobileStartUpApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class InternetNotAvailablePage : ContentPage
@@ -10,7 +10,7 @@ namespace MobileStartUApp.Views
 
         public InternetNotAvailablePage()
         {
-            _imageSource = ImageSource.FromResource("MobileStartUApp.Images.offlinelogo.png");
+            _imageSource = ImageSource.FromResource("MobileStartUpApp.Images.offlinelogo.png");
             InitializeComponent();
 
             internetNotAvailableImage.Source = _imageSource;
